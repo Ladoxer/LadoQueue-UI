@@ -1,5 +1,5 @@
 .nav-active {
-  @apply bg-primary-100 text-primary-700 border border-primary-200;
+  @apply bg-primary-100 text-primary-700 border border-primary-200 shadow-sm;
 }
 .nav-inactive {
   @apply text-slate-600 hover:text-slate-900 hover:bg-slate-100;
@@ -9,4 +9,7 @@
 }
 .mobile-nav-inactive {
   @apply text-slate-600 hover:text-slate-900 hover:bg-slate-100;
+}
+.nav-disabled {
+  @apply text-slate-400 cursor-not-allowed;
 }
