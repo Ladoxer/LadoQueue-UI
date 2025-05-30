@@ -83,7 +83,8 @@ export interface AnalyticsData {
   providedIn: 'root'
 })
 export class ApiService {
-  private baseUrl = 'http://localhost:3000';
+  // private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'hhttps://redis-ms1.onrender.com';
   private httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'
